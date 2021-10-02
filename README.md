@@ -56,7 +56,83 @@ e - ( ) Imperativo
 
 Resposta: Imutabilidade
 
+
+### Lambda no java
+
+-- Os lambdas obedecem o conceito do paradigma funcional, com eles podemos facilitar legibilidade do nosso código, além disso com a nova API Funcional do Java podemos ter uma alta produtividade para lidar com objetos.
+Primeiramente, devemos entender o que são interfaces funcionais. 
+Interfaces funcionais - São interfaces que possuem apenas um método abstrato. Exemplo:
+public interface Funcai {
+    String gerar (String valor);
+}
+Geralmente as interfaces funcionais possuem uma anotação em nível de classe ( @FunctionalInterface), para forçar o compilador a apontar um erro se a interface não estiver de acordo com as regras de uma interface funcional. Esta anotação não é obrigatória., pois o compilador consiste reconhecer uma interface em tempo de compilação.
+Antes do Java 8, se quisésemos implementar um comportamento específico para uma única classe deveríamos utilizar uma classe anônima para implementar este comportamento.
+Agora que sabemos como se define uma interface funcional podemos, aprender como se define uma lambda.
+Estrutura de uma lambda:
+
+InterfaceFuncional nomeVariavel = paramentro -> logica
+
+Para entender melhor utilizaremos o exemplo da Função.
+
+Bastante atenção!!!
+
+-Quando uma lambda possui apenas uma instrução no corpo de sua lógica não é necessário o uso de chaves.
+Exemplo: 
+Funcao colocarPrefixoSenhorNaString = valor -> "Sr. "+valor;  
+
+e se a função possui mais de uma instrução DEVEMOS ultilizar chaves e açém disso deve explicitar o retorno se o retorno for diferente de void. Exemplo: 
+
+Funcao colocarPrefixoSenhorNaString = valor -> {
+    String valorComprefixo = "Sr. "+valor;
+    String valoComprefixoEpontoFinal = valorComprefixo+".";
+    Return valoComPrefixoEPontoFinal;
+}
+
+
+Exercícios aula 
+
+4. Qual é a sintaxe base de uma lambda? 
+
+a - ( ) Tipo nomeVariavel = parametro -> logica
+b - ( ) Tipo nomeVariavel = valor
+c - ( ) TipoAbstrato nomeVariavel = valor
+d - ( ) InterfaceFuncional nomeVariavel = parametro -> logica
+e - ( ) TipoEnum nomeVariavel = parametro ->
+
+Resposta: D
+
+5. Quando devemos ultilizar chavas em um lambda?  
+
+a - ( ) Quando o mesmo possui apenas uma instrução
+b - ( ) Quando ultilizamos a referencia do método
+c - ( ) Quando ultilizamos a intergace Runnable
+d - ( ) Quando o mesmo possui mais de uma instrução
+e - ( ) Quando o mesmo não possui nenhuma instrução 
+
+Resposta: D
+
+6. Qual das altenativas a seguir e uma declaração de um lambda?  
+
+a - ( ) Funcao a = "2";
+b - ( ) Funcao a => "2";
+c - ( ) Funcao a = a => "2";
+d - ( ) Funcao a -> "2";
+e - ( ) Funcao a = valor -> "2";
+
+Resposta: E
+
+7. Antes do Java 8, qual era a estratégia ultilizada para implementação de interface em uma classe especifica.  
+
+a - ( ) Classe Anônima;
+b - ( ) Declaração de uma outra interface;
+c - ( ) Enum;
+d - ( ) Classe abstrata;
+e - ( ) Encapsulamento;
+
+Resposta: A
 ---------------------------------------------------------------------------------------------------------------
+
+
 
 ## Getting Started
 
