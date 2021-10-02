@@ -10,7 +10,14 @@
 
 - Paradigma Funcional: Damos uma regra, uma declaração de como queremos que o programa se comporte.
 
+### Funções e imutabilidade em Paradgma Funcional
 
+- Conceitos fundamentais da progamação funcional.
+-- Composição de funções: é criar uma nova função através da composição de outras. Por exemplo, vamos criar uma função que vai filtrar um array, filtrando somente os números pares e multiplicando por dois: 
+
+-- Um conceito do paradigma funcional e a função pura: é chamada de pura quando invoca mais de uma vez, produz exatamente o mesmo resultado.
+
+-- Outro conceito é a imutabilidade: significa que uma vez que uma variável que recebeu um valor, vai possuir esse valor para sempre, ou quando criamos um objeto ele não pode ser modificado. Ex: um objeto que foi criado não pode ser modificado.
 ---------------------------------------------------------------------------------------------------------------
 
 ## Getting Started
