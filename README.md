@@ -18,6 +18,44 @@
 -- Um conceito do paradigma funcional e a função pura: é chamada de pura quando invoca mais de uma vez, produz exatamente o mesmo resultado.
 
 -- Outro conceito é a imutabilidade: significa que uma vez que uma variável que recebeu um valor, vai possuir esse valor para sempre, ou quando criamos um objeto ele não pode ser modificado. Ex: um objeto que foi criado não pode ser modificado.
+
+- imperarivo vs declarativo
+--É muito comum aprender a programar de forma imperativa, onde mandamos alguém fazer algo, Busque o usuário 15 no banco de dados. Valide essas informações do usuários.
+
+-- Na programação funcional tentamos programar de forma declarativa, onde declaramos o que desejamos, sem explicitar como será feito. Qual o usuário 15? Quais os erros dessas informações?
+
+Exercícios aula 
+
+1. É aquele que expressa o código através de comandos ao computador, nele é possível ter controle de estado dos objetos, de acordo com a afirmação. Qual a alternativa representa esse paradigma.
+
+a - ( ) Declarativo
+b - ( ) Imutabilidade
+c - ( ) Funcional
+d - ( ) Recursividade
+e - ( ) Imperativo
+
+Resposta: Imperativo
+
+2. Damos uma regra, uma declaração de como queremos que o programa se comporte, de acordo com a afirmação. Qual alternativa representa esse paradigma. 
+
+a - ( ) Composição de funções.
+b - ( ) Imutabilidade
+c - ( ) Funcional
+d - ( ) Recursividade
+e - ( ) Imperativo
+
+Resposta: Funcional
+
+3. Uma vez que uma variável que recebe um valor, esta vai possuir esse valor para sempre, ou quando criamos um objeto ele não pode ser modificado, de acordo com a afirmação. Qual alternativa representa esse paradigma. 
+
+a - ( ) Composição de funções.
+b - ( ) Imutabilidade
+c - ( ) Funcional
+d - ( ) Recursividade
+e - ( ) Imperativo
+
+Resposta: Imutabilidade
+
 ---------------------------------------------------------------------------------------------------------------
 
 ## Getting Started
